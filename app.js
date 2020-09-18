@@ -11,3 +11,11 @@ function changeColor() {
   ).innerText = `Background Color: ${color[i]}`;
   i++;
 }
+
+let ishex = Boolean;
+function hexFunction() {
+  return ishex == true ? false : true;
+}
+document.getElementById("hex").click(hexFunction());
+
+console.log(hexFunction());
